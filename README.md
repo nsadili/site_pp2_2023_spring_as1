@@ -119,9 +119,9 @@ classes).
 </ul>
 
 <h3>Task Related - Testing all together <strong>(10 %)</strong></h3>
-You will need to define a <strong><em>BankingDemo</em></strong> class which demonstrates all the functionality of your
-program. However, it is strongly encouraged to test each class and each method as soon as they are completed to have
-less errors and easy debugging in the end. <br/>
+You will need to define a <strong><em>BankingDemo</em></strong> class which demonstrates all the functionality of yourprogram. However, it is strongly encouraged to test each class and each method as soon as they are completed to have less errors and easy debugging in the end. <br/>
+When you compile, make sure your .class files are totally isolated from the rest and are never commited and pushed. 
+
 
 <h4>Important notes:</h4>
 - Codes that do not compile and run will not be graded. <br />
