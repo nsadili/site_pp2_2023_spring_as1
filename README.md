@@ -94,10 +94,10 @@ classes).
         the bank's list of customers</li>
     <li><strong><em>getCustomers()</em></strong> - returns the bank's list of customers</li>
     <li><strong><em>getCustomer(String customerId)</em></strong> - returns the customer with the specified id</li>
-    <li><strong><em>createCheckingAccount(Customer customer, BigDecimal balance, double overDraftLimit)</em></strong> -
+    <li><strong><em>createCheckingAccount(Customer customer, BigDecimal balance, BigDecimal overDraftLimit)</em></strong> -
         creates a new checking account for the specified customer with the specified initial balance and overdraft limit
     </li>
-    <li><strong><em>createSavingAccount(Customer customer, BigDecimal balance, double interestRate)</em></strong> -
+    <li><strong><em>createSavingAccount(Customer customer, BigDecimal balance, BigDecimal interestRate)</em></strong> -
         creates a new savings account for the specified customer with the specified initial balance and interest rate
     </li>
 </ul>
