@@ -100,6 +100,7 @@ classes).
     <li><strong><em>createSavingAccount(Customer customer, BigDecimal balance, BigDecimal interestRate)</em></strong> -
         creates a new savings account for the specified customer with the specified initial balance and interest rate
     </li>
+    <li>All the IDs are always generated within constructors. Do not generate an id and set to a newly instantiated object.</li>
 </ul>
 
 <h3>Task Related - Exception handling <strong>(10 %)</strong></h3>
