@@ -76,6 +76,8 @@ classes).
         customer's list of accounts</li>
     <li><strong><em>getTotalBalance()</em></strong> - returns the total balance of the customer considering all accounts
     </li>
+    <li><strong><em>getAccounts(String type)</em></strong> - returns the (list) accounts of the customer based on the
+        type: <em>checking</em> or <em>saving</em></li>
 </ul>
 
 <h3>Task Related - Banking class <strong>(30 %)</strong></h3>
@@ -94,13 +96,15 @@ classes).
         the bank's list of customers</li>
     <li><strong><em>getCustomers()</em></strong> - returns the bank's list of customers</li>
     <li><strong><em>getCustomer(String customerId)</em></strong> - returns the customer with the specified id</li>
-    <li><strong><em>createCheckingAccount(Customer customer, BigDecimal balance, BigDecimal overDraftLimit)</em></strong> -
+    <li><strong><em>createCheckingAccount(Customer customer, BigDecimal balance, BigDecimal
+                overDraftLimit)</em></strong> -
         creates a new checking account for the specified customer with the specified initial balance and overdraft limit
     </li>
     <li><strong><em>createSavingAccount(Customer customer, BigDecimal balance, BigDecimal interestRate)</em></strong> -
         creates a new savings account for the specified customer with the specified initial balance and interest rate
     </li>
-    <li>All the IDs are always generated within constructors. Do not generate an id and set to a newly instantiated object.</li>
+    <li>All the IDs are always generated within constructors. Do not generate an id and set to a newly instantiated
+        object.</li>
 </ul>
 
 <h3>Task Related - Exception handling <strong>(10 %)</strong></h3>
@@ -120,11 +124,18 @@ classes).
 </ul>
 
 <h3>Task Related - Testing all together <strong>(10 %)</strong></h3>
-You will need to define a <strong><em>BankingDemo</em></strong> class which demonstrates all the functionality of yourprogram. However, it is strongly encouraged to test each class and each method as soon as they are completed to have less errors and easy debugging in the end. <br/>
-When you compile, make sure your .class files are totally isolated from the rest and are never commited and pushed. 
+You will need to define a <strong><em>BankingDemo</em></strong> class which demonstrates all the functionality of
+yourprogram. However, it is strongly encouraged to test each class and each method as soon as they are completed to have
+less errors and easy debugging in the end. <br />
+When you compile, make sure your .class files are totally isolated from the rest and are never commited and pushed.
 
+<h3>Task Related - Class diagrams <strong>(5 %)</strong></h3>
+Draw the class diagrams including all the association and relations among the classes. Add the image(s) to the project
+folder so that they are submitted to the repository as well. You may use any tool to draw the diagrams. Make sure you
+submit image format (.jpg or .png).
 
 <h4>Important notes:</h4>
 - Codes that do not compile and run will not be graded. <br />
 - Please, also refer to the course syllabus about the assignments. <br />
+- Each completed feature must be commited and pushed. <br />
 - This assignment will give you <strong><em>10 %</em></strong> of the overall. <br />
